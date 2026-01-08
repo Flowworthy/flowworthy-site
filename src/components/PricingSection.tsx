@@ -62,7 +62,7 @@ export default function PricingSection({
               rel="noreferrer"
               className="mt-5 inline-flex w-full items-center justify-center rounded-md bg-neutral-950 px-3 py-2 text-sm font-medium text-white hover:bg-neutral-800"
             >
-              Start collecting stories
+              {site.cta}
             </a>
 
             <div className="mt-3 text-xs text-neutral-600">
