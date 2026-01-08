@@ -42,7 +42,7 @@ export default function SiteShell({ children }: { children: React.ReactNode }) {
               className="rounded-md bg-neutral-950 px-3 py-2 text-white hover:bg-neutral-800"
               href="/pricing"
             >
-              {site.cta}
+              Start collecting stories
             </Link>
           </nav>
 
@@ -51,7 +51,7 @@ export default function SiteShell({ children }: { children: React.ReactNode }) {
             className="md:hidden rounded-md bg-neutral-950 px-3 py-2 text-sm text-white hover:bg-neutral-800"
             href="/pricing"
           >
-            {site.cta}
+            Start collecting stories
           </Link>
         </div>
       </header>
